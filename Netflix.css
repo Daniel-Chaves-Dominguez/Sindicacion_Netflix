@@ -1,7 +1,8 @@
+
 body {
-    background-color: #0d0d0d; 
+    background-color: #660000; 
     color: #e0e0e0; 
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: Courier; 
     margin: 0;
     padding: 0;
 }
@@ -11,7 +12,7 @@ header {
     color: #ffffff;
     text-align: center;
     padding: 30px;
-    border-bottom: 4px double #ff0000; 
+    border-bottom: 4px double #191616; 
     text-transform: uppercase;
 }
 
@@ -33,7 +34,7 @@ nav li {
 }
 
 nav a {
-    color: #ff0000; 
+    color: #ffffff; 
     text-decoration: none;
     font-weight: bold;
 }
@@ -71,11 +72,30 @@ h3 {
 }
 
 footer {
-    background-color: #000000;
+    background-color: #252424;
     color: #ffffff; 
     text-align: center;
     padding: 20px;
     margin-top: 50px;
     font-size: 0.8em;
     border-top: 1px solid #222;
+}
+
+.foto-dahmer {
+    display: none; 
+    width: 200px;
+    margin-top: 10px;
+    border: 2px solid #ff0000;
+    transition: transform 0.3s ease; 
+}
+
+.asesino:hover .foto-dahmer {
+    display: block;
+}
+
+
+.foto-dahmer:active {
+    transform: scale(2.5);
+    position: relative;
+    z-index: 10;
 }
