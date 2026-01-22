@@ -2,56 +2,87 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Web de Asesinos de Netflix</title>
+    <title>Mi Web de Asesinos - Estilo Terror</title>
     <link rel="stylesheet" href="Netflix.css">
 </head>
 <body>
 
     <header>
-        <h1>No podrás dormir: El aterrador ascenso de los 4 asesinos más buscados de la plataforma.</h1>
+        <h1>MORBIDOLOGY: ARCHIVOS DE NETFLIX</h1>
+        <nav>
+            <a href="#">Inicio</a> | 
+            <a href="https://www.netflix.com/es/">Ir a Netflix</a>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="https://www.netflix.com/es/">Ir a Netflix</a></li>
-        </ul>
-    </nav>
-
-    <section>
+    <div class="presentacion">
         <h2>¿De qué trata esta página?</h2>
-        <p>Esta página web está dedicada al análisis de algunos de los asesinos más conocidos que han sido retratados en series documentales y de ficción disponibles en Netflix. A través de un enfoque informativo y analítico, se examinan sus crímenes y se reflexiona sobre las razones por las que este tipo de producciones despiertan tanto interés entre el público, a pesar de su carácter perturbador. El contenido incluye un repaso a los casos de Jeffrey Dahmer, Ed Gein, los hermanos Menéndez y John Wayne Gacy.</p>
-    </section>
+        <p>Análisis de los asesinos más perturbadores de la plataforma. Haz clic en sus fotos para ver sus crímenes.</p>
+    </div>
 
-    <main>
-        <div class="asesino">
-            <h3>Monstruo: La historia de Jeffrey Dahmer
-                <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1769081675/Jeffrey_Dahmer_schvd9.jpg" class="foto-Jeffrey Dahmer">
-            </h3>
-            <p>La serie Dahmer de Netflix relata la historia real de Jeffrey Dahmer, uno de los asesinos en serie más conocidos de Estados Unidos. A través de los episodios se muestran sus crímenes, su vida personal y los errores de la policía y la justicia que permitieron que siguiera actuando durante años. La serie también pone el foco en las víctimas y en los problemas sociales que influyeron en que el caso no se resolviera antes.</p>
+    <div class="galeria">
+        
+        <div class="tarjeta">
+            <a href="#info1">
+                <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1769081675/Jeffrey_Dahmer_schvd9.jpg">
+                <h3>Jeffrey Dahmer</h3>
+            </a>
         </div>
 
-        <div class="asesino">
-            <h3>Monstruo: La historia de Ed Gein
-                <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1769082149/Ed_Gein_kiubkx.jpg" class="foto-ed-gein">
-            </h3>
-            <p>La historia de Ed Gein relata la vida de Ed Gein, un criminal estadounidense cuya conducta perturbadora conmocionó al país. La serie muestra su infancia marcada por el aislamiento y la fuerte influencia de su madre, así como los hechos que llevaron al descubrimiento de sus crímenes. Más que centrarse en asesinatos, la historia explora su trastorno mental y el impacto que su caso tuvo en la sociedad. La serie también destaca cómo su figura influyó en la cultura popular y en el cine de terror.</p>
+        <div class="tarjeta">
+            <a href="#info2">
+                <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1769082149/Ed_Gein_kiubkx.jpg">
+                <h3>Ed Gein</h3>
+            </a>
         </div>
 
-        <div class="asesino">
-            <h3>Monstruos: La historia de Lyle y Erik Menéndez
-                <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1769082271/Lyle_y_Erik_Men%C3%A9ndez_fpbuvs.jpg" class="foto-lyle-y-erik-menéndez">
-            </h3>
-            <p>La historia de Lyle y Erik Menéndez narra el caso real de dos hermanos que asesinaron a sus padres en 1989 en Estados Unidos. A lo largo de la serie se reconstruyen los hechos del crimen, el juicio y la atención mediática que generó el caso. La historia profundiza en la relación familiar, los presuntos abusos sufridos por los hermanos y cómo estos influyeron en sus acciones. La serie muestra la complejidad del caso y el debate social sobre la culpa, la justicia y la violencia dentro del ámbito familiar.</p>
+        <div class="tarjeta">
+            <a href="#info3">
+                <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1769082271/Lyle_y_Erik_Men%C3%A9ndez_fpbuvs.jpg">
+                <h3>Hermanos Menéndez</h3>
+            </a>
         </div>
 
-        <div class="asesino">
-            <h3>Conversaciones con asesinos las cintas de John Wayne Gacy 
-                <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1769082423/John_Wayne_Gacy_ukedia.jpg" class="foto-john-wayne-gacy">
-            </h3>
-            <p>Las cintas de John Wayne Gacy reconstruye el caso del asesino en serie estadounidense John Wayne Gacy a través de grabaciones reales realizadas tras su arresto. La serie repasa sus crímenes, en los que asesinó a numerosos jóvenes, y muestra cómo logró ocultarlos durante años aparentando ser una persona respetable. También analiza su personalidad, la investigación policial y el impacto que el caso tuvo en la sociedad.</p>
+        <div class="tarjeta">
+            <a href="#info4">
+                <img src="https://res.cloudinary.com/duzljw2pp/image/upload/v1769082423/John_Wayne_Gacy_ukedia.jpg">
+                <h3>John Wayne Gacy</h3>
+            </a>
         </div>
-    </main>
+
+    </div>
+
+    <div id="info1" class="cuadro-rojo">
+        <div class="contenido">
+            <a href="#" class="cerrar">X CERRAR</a>
+            <h2>Monstruo: La historia de Jeffrey Dahmer</h2>
+            <p>La serie Dahmer de Netflix relata la historia real de Jeffrey Dahmer, uno de los asesinos en serie más conocidos de Estados Unidos. A través de los episodios se muestran sus crímenes, su vida personal y los errores de la policía y la justicia que permitieron que siguiera actuando durante años.</p>
+        </div>
+    </div>
+
+    <div id="info2" class="cuadro-rojo">
+        <div class="contenido">
+            <a href="#" class="cerrar">X CERRAR</a>
+            <h2>Monstruo: La historia de Ed Gein</h2>
+            <p>Relata la vida de Ed Gein, un criminal estadounidense cuya conducta perturbadora conmocionó al país. La serie muestra su infancia marcada por el aislamiento y la fuerte influencia de su madre. Explora su trastorno mental y el impacto en la cultura popular.</p>
+        </div>
+    </div>
+
+    <div id="info3" class="cuadro-rojo">
+        <div class="contenido">
+            <a href="#" class="cerrar">X CERRAR</a>
+            <h2>Monstruos: La historia de Lyle y Erik Menéndez</h2>
+            <p>Narra el caso real de dos hermanos que asesinaron a sus padres en 1989. La serie profundiza en la relación familiar, los presuntos abusos sufridos por los hermanos y cómo estos influyeron en sus acciones y el debate sobre la justicia.</p>
+        </div>
+    </div>
+
+    <div id="info4" class="cuadro-rojo">
+        <div class="contenido">
+            <a href="#" class="cerrar">X CERRAR</a>
+            <h2>Las cintas de John Wayne Gacy</h2>
+            <p>Reconstruye el caso a través de grabaciones reales realizadas tras su arresto. Repasa sus crímenes, en los que asesinó a numerosos jóvenes, y muestra cómo logró ocultarlos durante años aparentando ser una persona respetable.</p>
+        </div>
+    </div>
 
     <footer>
         <p>Hecho por un alumno - 2026. Todos los derechos a Netflix.</p>
