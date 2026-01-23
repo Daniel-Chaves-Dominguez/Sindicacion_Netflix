@@ -1,4 +1,4 @@
-# No podrás dormir: The Terrifying Rise of the Platform's 4 Most Wanted Killers 
+# No Sleep for You: The Terrifying Rise of the Platform's 4 Most Wanted Killers 
 
 ## 📝 Project Description
 This project is an informative web platform designed with a horror aesthetic, dedicated to analyzing four of the most notorious criminals portrayed in Netflix's documentary and fiction series. Through an analytical lens, the site examines the crimes of **Jeffrey Dahmer, Ed Gein, the Menéndez brothers, and John Wayne Gacy**, reflecting on why these disturbing productions capture such intense public interest.
