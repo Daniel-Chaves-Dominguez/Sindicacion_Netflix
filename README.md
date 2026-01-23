@@ -26,3 +26,7 @@ To properly explore the platform, follow these steps:
 ## ✅ RSS and XML Validations 
 We have validated the RSS and XML file to ensure it complies with the standard format and that all item information is accessible to news readers.
 
+<img width="1900" height="800" alt="Captura de pantalla 2026-01-21 140636" src="https://github.com/user-attachments/assets/7062ec01-114a-4c4c-8054-fd9e6e28da44" />
+
+<img width="1887" height="911" alt="Captura de pantalla 2026-01-21 140732" src="https://github.com/user-attachments/assets/6a2dafbe-4126-4288-9bd8-8635463faf29" />
+
