@@ -21,7 +21,8 @@ To properly explore the platform, follow these steps:
 2. **Gallery Interactivity**: In the gallery section, hover your cursor over the photos to remove the grayscale filter and see them in full color[cite: 176, 177].
 3. **Case Consultation**: Click on the card of any killer (Dahmer, Gein, Menéndez, or Gacy) to open a detailed information box[cite: 60, 68, 76, 84].
 4. **Closing Information**: Once you have read the case, click the **"CERRAR CASO"** (CLOSE CASE) link to return to the main gallery[cite: 94, 103, 113, 122].
-5. **RSS Access**: Use the **"Subscribirse al RSS"** link in the navigation menu to view the XML news feed structure.
+5. **RSS Access**: Use the **"Unirse al crimen"** link in the navigation menu to view the XML news feed structure.
+6. **Feedly Access**: Visit our Feedly in https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fdaniel-chaves-dominguez.github.io%2Ffeed.xml to see all our news.
 
 ## ✅ RSS and XML Validations 
 We have validated the RSS and XML file to ensure it complies with the standard format and that all item information is accessible to news readers.
