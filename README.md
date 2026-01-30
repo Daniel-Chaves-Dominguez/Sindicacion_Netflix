@@ -5,6 +5,9 @@ This project is an informative web platform designed with a horror aesthetic, de
 
 The platform features a content syndication channel (RSS) that summarizes their stories, provides official links, and details the impact of their cases on popular culture and the justice system.
 
+<img width="1888" height="916" alt="image" src="https://github.com/user-attachments/assets/67fe0356-70b4-4c52-b048-d30ad2b3844b" />
+
+
 ## 👥 Authors
 * **Alba Ruiz de la Vega**
 * **Daniel Chaves Dominguez**
